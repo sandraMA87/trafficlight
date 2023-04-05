@@ -10,3 +10,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background: radial-gradient(circle, red, rgb(54, 53, 49), blue, green);  
+}
+
+.container {
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 420px;
+  padding-top: 10px;
+  border-color: rgb(252, 28, 121);
+  border-width: 30px;
+  border: 10px solid rgb(254, 197, 10);
+}
+
+.light {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  margin-left: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.palo {
+  background-color:  rgb(254, 197, 10);
+  height: 200px;
+  width: 20px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: rgb(255, 187, 1);
+}
+
+.green {
+  background-color: green;
+}
+
+.active {
+  box-shadow: 0 0 50px 3px #ffeab5;
+}
